@@ -1,104 +1,115 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Presupuesto Web - Txaro Kandler</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Txaro Kandler, actriz de cine, teatro y televisión.">
+  <title>Txaro Kandler | Actriz</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="site-header">
+    <a class="wordmark" href="#inicio" aria-label="Txaro Kandler, inicio">Txaro<br>Kandler</a>
+    <nav class="site-nav" aria-label="Navegación principal">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#showreel">Showreel</a>
+      <a href="#backstage">Backstage</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <span class="header-index">Actriz / 01</span>
+  </header>
 
-<h1>DOCUMENTO DE PROYECTO WEB – PORTFOLIO DE ACTRIZ</h1>
-<p><strong>Cliente:</strong> Txaro Kandler<br>
-<strong>Fecha:</strong> 27 de agosto de 2026</p>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">Interpretación para pantalla y escena</p>
+        <h1>La verdad<br><em>en primer plano.</em></h1>
+        <p class="hero-intro">Una presencia que escucha, transforma y permanece.</p>
+        <a class="text-link" href="#showreel">Ver showreel <span aria-hidden="true">↘</span></a>
+      </div>
+      <figure class="hero-image">
+        <img src="Txaro_Fotos/Txaro_Kandler_0.jpg" alt="Retrato de Txaro Kandler">
+        <figcaption><span>01</span> Retrato / Txaro Kandler</figcaption>
+      </figure>
+      <div class="hero-note">Madrid<br>ES / 2026</div>
+    </section>
 
-<p>Gracias por confiar en mí para desarrollar tu página web profesional. Este documento resume toda la información técnica, el desglose del presupuesto y los siguientes pasos para finalizar el proyecto de forma sencilla, transparente y sin complicaciones.</p>
+    <section class="about section-grid" id="sobre-mi">
+      <div class="section-label"><span>02</span><span>Sobre mí</span></div>
+      <div class="about-content">
+        <p class="section-kicker">Cuerpo, voz, presencia</p>
+        <h2>El personaje empieza donde termina la pose.</h2>
+        <div class="about-text">
+          <p>Txaro Kandler trabaja desde la escucha y la precisión, buscando en cada personaje un gesto propio, una respiración reconocible, una verdad que no necesita explicarse.</p>
+          <p>Su recorrido atraviesa el cine, el teatro y la televisión. Le interesan las historias que dejan espacio a lo humano: lo que tiembla, lo que calla y lo que decide quedarse.</p>
+        </div>
+        <a class="text-link" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
 
-<h2>1. DESGLOSE DEL PRESUPUESTO</h2>
-<table>
-  <tr>
-    <th>Concepto</th>
-    <th>Coste</th>
-    <th>Notas</th>
-  </tr>
-  <tr>
-    <td>Diseño y Desarrollo Web</td>
-    <td><strong>455 €</strong></td>
-    <td>Pago único. Incluye diseño, programación, adaptación a móvil, animaciones y formulario.</td>
-  </tr>
-  <tr>
-    <td>Dominio (.com o .es)</td>
-    <td>~10 a 15 € / año</td>
-    <td>Lo compras tú directamente. El dominio es 100% de tu propiedad.</td>
-  </tr>
-  <tr>
-    <td>Hosting (Alojamiento web)</td>
-    <td><strong>0 €</strong></td>
-    <td>Incluido. Se usa un servicio profesional gratuito (Netlify).</td>
-  </tr>
-  <tr>
-    <td>Certificado de Seguridad (SSL)</td>
-    <td><strong>0 €</strong></td>
-    <td>Incluido (el candado https de seguridad).</td>
-  </tr>
-  <tr>
-    <td>Formulario de contacto</td>
-    <td><strong>0 €</strong></td>
-    <td>Incluido (los mensajes te llegarán directamente a tu email).</td>
-  </tr>
-</table>
+    <section class="showreel" id="showreel">
+      <div class="showreel-heading section-grid">
+        <div class="section-label"><span>03</span><span>Showreel</span></div>
+        <div>
+          <p class="section-kicker">Una selección en movimiento</p>
+          <h2>El trabajo<br><em>habla solo.</em></h2>
+        </div>
+      </div>
+      <div class="video-stack">
+        <article class="video-entry video-entry-featured">
+          <div class="video-frame">
+            <video controls preload="metadata" poster="Txaro_Fotos/Hambre_Cartel.jpeg">
+              <source src="Txaro_videos/Video_Txaro.mp4" type="video/mp4">
+              Tu navegador no puede reproducir este vídeo.
+            </video>
+          </div>
+          <div class="video-meta"><span>01 / Showreel</span><span>Txaro Kandler</span></div>
+        </article>
+        <article class="video-entry video-entry-offset">
+          <div class="embed-frame">
+            <iframe src="https://www.youtube.com/embed/TbxqlyJHnbY" title="Showreel de Txaro Kandler en YouTube" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="video-meta"><span>02 / En escena</span><span>YouTube</span></div>
+        </article>
+        <article class="video-entry">
+          <div class="embed-frame">
+            <iframe src="https://www.youtube.com/embed/QD3NjjCMb_w" title="Vídeo de Txaro Kandler en YouTube" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="video-meta"><span>03 / Trabajo actoral</span><span>YouTube</span></div>
+        </article>
+      </div>
+    </section>
 
-<div class="highlight">
-  <p class="total">💰 RESUMEN DE GASTOS:</p>
-  <ul>
-    <li><strong>Total a pagar ahora (Desarrollo):</strong> 455 €</li>
-    <li><strong>Total primer año</strong> (incluyendo dominio): ~465 - 470 €</li>
-    <li><strong>Total años siguientes:</strong> Solo ~10 - 15 € al año (renovación del dominio). <em>No hay cuotas mensuales ni costes ocultos.</em></li>
-  </ul>
-</div>
+    <section class="backstage" id="backstage">
+      <div class="section-grid backstage-heading">
+        <div class="section-label"><span>04</span><span>Backstage</span></div>
+        <div>
+          <p class="section-kicker">Fuera de plano</p>
+          <h2>El instante<br><em>antes de entrar.</em></h2>
+        </div>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo photo-large"><img src="Txaro_Fotos/Hambre_Cartel.jpeg" alt="Cartel de la obra Hambre"><figcaption>Hambre / Teatro</figcaption></figure>
+        <figure class="photo photo-tall"><img src="Txaro_Fotos/Txaro_Kandler_2.jpeg" alt="Txaro Kandler durante una sesión fotográfica"><figcaption>Estudio / 2026</figcaption></figure>
+        <figure class="photo photo-wide"><img src="Txaro_Fotos/Moaba_CinemaTv.jpg" alt="Txaro Kandler en un proyecto audiovisual"><figcaption>Moaba Cinema TV</figcaption></figure>
+        <figure class="photo photo-small"><img src="Txaro_Fotos/Txaro_Kandler_3.jpeg" alt="Retrato de Txaro Kandler en backstage"><figcaption>Entre tomas</figcaption></figure>
+      </div>
+    </section>
 
-<h2>2. CONCEPTOS BÁSICOS EXPLICADOS DE FORMA SENCILLA</h2>
-<p><strong>🌐 ¿Qué es el Dominio?</strong><br>
-Es la dirección de tu web en internet (por ejemplo: <em>txarokandler.com</em>). Es como la dirección postal de tu casa: la gente la escribe en el navegador para encontrarte.</p>
+    <section class="contact section-grid" id="contacto">
+      <div class="section-label"><span>05</span><span>Contacto</span></div>
+      <div class="contact-content">
+        <p class="section-kicker">Para una nueva historia</p>
+        <h2>Hagamos<br><em>que ocurra.</em></h2>
+        <a class="contact-email" href="mailto:hola@txarokandler.com">hola@txarokandler.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
 
-<p><strong>🏠 ¿Qué es el Hosting?</strong><br>
-Es el "terreno" o el espacio en internet donde se guardan los archivos de tu web (tus fotos, textos y código). Para este proyecto, el hosting es completamente gratuito y lo gestiono yo, por lo que tú no tienes que preocuparte ni pagar nada por ello.</p>
-
-<h2>3. CÓMO COMPRAR EL DOMINIO (Paso a paso)</h2>
-<p>Te recomiendo comprarlo en <strong>Namecheap</strong> o <strong>Spaceship</strong>, ya que son seguros, económicos y sin "letra pequeña" en las renovaciones.</p>
-<ol>
-  <li>Entra en: <a href="https://www.namecheap.com">www.namecheap.com</a> (o www.spaceship.com)</li>
-  <li>En la barra de búsqueda, escribe el nombre que quieras (ej: <em>txarokandler.com</em>) y pulsa "Search".</li>
-  <li>Si aparece en verde, significa que está disponible. Añádelo al carrito ("Add to Cart").</li>
-  <li>Crea una cuenta sencilla con tu email y una contraseña.</li>
-  <li>Realiza el pago con tarjeta (unos 10-15 €).</li>
-  <li>¡Listo! El dominio ya es tuyo. Solo tendrás que decirme el nombre exacto que compraste para que yo lo conecte a tu web. (Si lo prefieres, podemos hacerlo juntas por videollamada).</li>
-</ol>
-
-<h2>4. CHECKLIST: LO QUE NECESITO DE TI PARA TERMINAR</h2>
-<p>Para que la web refleje tu personalidad y esté 100% lista, necesito que me envíes (por email o WhatsApp, como te sea más cómodo) lo siguiente:</p>
-<ul>
-  <li><strong>[ ] 1. Tu biografía ampliada</strong> (200-300 palabras): Cuéntame quién eres más allá del CV, qué te motiva y qué tipo de papeles te interesan. Puedes escribirlo en primera persona ("Soy...") o en tercera ("Txaro es...").</li>
-  <li><strong>[ ] 2. Texto para el Showreel</strong> (2-3 frases): ¿Qué muestra el vídeo? (ej: "Montaje de escenas de cine y teatro con un tono dramático e intenso").</li>
-  <li><strong>[ ] 3. Una frase personal para la Galería</strong> (1 línea): Algo breve sobre tu relación con la interpretación o tu proceso creativo.</li>
-  <li><strong>[ ] 4. Confirmación del vídeo:</strong> ¿El archivo "Video_Txaro.mp4" que me pasaste es el definitivo o tienes uno más actualizado?</li>
-  <li><strong>[ ] 5. Tu email de contacto:</strong> ¿A qué dirección de correo electrónico quieres que lleguen los mensajes que te escriban desde la web?</li>
-</ul>
-
-<h2>5. PRÓXIMOS PASOS Y SOPORTE</h2>
-<p>Una vez tenga estos 5 puntos, me encargaré de:</p>
-<ul>
-  <li>Optimizar y renombrar todas tus imágenes.</li>
-  <li>Conectar el formulario para que funcione perfectamente.</li>
-  <li>Subir la web a internet y conectar tu dominio.</li>
-  <li>Hacer las últimas pruebas para que todo funcione a la perfección.</li>
-</ul>
-
-<p>Si al leer este documento te surge cualquier duda, o si prefieres que te guíe paso a paso con la compra del dominio, no dudes en decírmelo. Hacemos una videollamada cuando tú quieras, compartimos pantalla y lo resolvemos juntas en 10 minutos.</p>
-
-<p><div class="footer">
-  <p>Un abrazo,</p>
-  <p><strong>Marga</strong></p>
-</div>
-
+  <footer class="site-footer">
+    <span>Txaro Kandler</span>
+    <span>Portfolio / 2026</span>
+    <a href="#inicio">Volver arriba ↑</a>
+  </footer>
 </body>
 </html>
